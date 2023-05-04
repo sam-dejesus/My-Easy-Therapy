@@ -1,0 +1,130 @@
+.wrapper {
+background-color: white;
+}
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 5s steps(30), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid;
+  font-family:Sofia;
+  font-size: 40px;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+.hero-img{
+background-color: white;
+}
+.boxheader{
+  font-family:"Sofia", sans-serif;
+  font-style: italic;
+  
+}
+.firstimg{
+ margin-left: 10px;
+
+}
+
+
+
+p{
+  text-align: center;
+}
+
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.iconstwo{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+}
+.iconsthree{
+  display: flex;
+justify-content: space-around;
+font-size: 30px;
+margin-bottom: 30px;
+}
+
+.card:hover{
+  animation: bounce 0.5s linear;
+}
+@keyframes bounce{
+  20%{ transform: translateY(-10px);}
+  40%{transform: translateY(0px);}
+  60%{transform: translateY(-5px);}
+  80%{transform: translate(0px);}
+}
+.iconsp{
+  height: 100px;
+
+}
+h2{
+  font-family:"Sofia", sans-serif;
+  font-size: 60px
+}
+.introVideo{
+  font-size: 20px;
+  margin-top: 20px;
+}
+i{
+  color: rgb(5, 215, 238);
+}
+i:hover{
+  animation: bounce 0.5s linear;
+}
+@keyframes bounce{
+  20%{ transform: translateY(-8px);}
+  40%{transform: translateY(0px);}
+  60%{transform: translateY(-5px);}
+  80%{transform: translate(0px);}
+}
+.blue{
+  color:blue ;
+}
+.red{
+  color: red ;
+}
+.yellow{
+  color: rgba(231, 228, 14, 0.817) ;
+}
+.green{
+  color:green ;
+}
+@media (max-width: 1100px) {
+  .teamBio {
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .statementSection {
+    display: flex  !important;
+    flex-direction: column !important;
+  
+  
+}
+}
+@media (max-width: 600px) {
+  .iconstwo {
+    font-size: 15px;
+  
+    flex-direction: column;
+  }
+}
