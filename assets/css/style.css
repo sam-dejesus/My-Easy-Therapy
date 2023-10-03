@@ -1,4 +1,7 @@
-code
+
+header{
+height: 100vh;
+}
 .hero-div {
   background-color: rgb(255, 255, 255);
 
@@ -20,11 +23,8 @@ top-spacer{
 }
 
 video {
-
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
   z-index: 1;
 
@@ -35,7 +35,11 @@ video {
 }
 
 
+.cardContainer{
 
+  display: flex; 
+  justify-content: space-around;
+}
 
 
 /* ----------- */
